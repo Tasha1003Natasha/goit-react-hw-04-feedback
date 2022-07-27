@@ -1,0 +1,10 @@
+.group__list {
+  list-style: none;
+  margin-top: -10px;
+}
+
+.group__item {
+  margin-top: 10px;
+  color: #00008b;
+  font-size: 35px;
+}
