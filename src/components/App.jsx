@@ -13,15 +13,15 @@ export const App = () => {
   const onLeaveFeedback = event => {
     switch (event.target.name) {
       case 'good':
-        setGood(prevGood => prevGood + 1);
+        setGood(prevState => prevState + 1);
         break;
 
       case 'neutral':
-        setNeutral(prevNeutral => prevNeutral + 1);
+        setNeutral(prevState => prevState + 1);
         break;
 
       case 'bad':
-        setBad(prevBad => prevBad + 1);
+        setBad(prevState => prevState + 1);
         break;
 
       default:
